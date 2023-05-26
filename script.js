@@ -1,1 +1,1 @@
-alert(window.frames['login'].querySelector("#password").value);
+alert(window.frames[0].querySelector("#password").value);
