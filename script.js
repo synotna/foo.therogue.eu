@@ -1,2 +1,1 @@
-const x = document.querySelector("#login").contentWindow;
-alert(x.document.querySelector("#password").value);
+alert(window.frames['login'].querySelector("#password").value);
